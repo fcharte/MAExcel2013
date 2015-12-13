@@ -1,0 +1,7 @@
+XLODBC
+1
+DBQ=D:\Francisco\Francisco\Documentos\MAExcel2010\Ejemplos\04\FAO.accdb;DefaultDir=D:\Francisco\Francisco\Documentos\MAExcel2010\Ejemplos\04;Driver={Microsoft Access Driver (*.mdb, *.accdb)};DriverId=25;FIL=MS Access;MaxBufferSize=2048;MaxScanRows=8;PageTimeout=5;SafeTransactions=0;Threads=3;UID=admin;UserCommitSync=Yes;
+SELECT Cultivos.Cultivo, Cultivos.Superficie  FROM Cultivos Cultivos  WHERE (Cultivos.Superficie>50000)  ORDER BY Cultivos.Superficie DESC
+
+
+Cultivo	Superficie
