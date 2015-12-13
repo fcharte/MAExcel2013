@@ -1,0 +1,14 @@
+[ODBC]
+DBQ=.\fao.mdb
+DefaultDir=.
+Driver={Microsoft Access Driver (*.mdb)}
+DriverId=25
+FIL=MS Access
+MaxBufferSize=2048
+MaxScanRows=8
+PageTimeout=5
+SafeTransactions=0
+Threads=3
+UserCommitSync=Yes
+[Microsoft Office]
+DefaultTable=Cultivos
